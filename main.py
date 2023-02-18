@@ -19,11 +19,13 @@ def find_mismatch(text):
         if next in ")]}":
             # Process closing bracket, write your code here
             pass
+    return "Success"
 
 
 def main():
     text = input()
     mismatch = find_mismatch(text)
+    print(mismatch)
     # Printing answer, write your code here
 
 
